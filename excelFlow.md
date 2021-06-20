@@ -52,23 +52,32 @@ after you open your MS Flow in your browser. Follow these steps on how to create
 ## Update Flow
 
 Congratiolations!! :party: :party:
-You have made your flow, but this flow is not yet complete. You need to update its logic flow on its contents.
+You have made your flow, but this flow is not yet complete. 
 
 In creating our flow, you have made 2 actions. A trigger ( *a selected row @ excel* ) and action ( *send an email: v2 @ Gmail* ). Each action there are updates needed to be filled in to work properly.
 
-> ### Select a row
+> ### Select a row (trigger)
 	divided in 2 parts
 
-	* file-path - file path is based on where did you store your data. MS flow only accepts data from the OneDrive application.
+		* file location / path - file path is based on where did you store your data. MS flow only accepts data from the OneDrive application.
 
-	* table name - at the file of the excel select the desired table name for your logic path (very important)
->send an email: V2
+		* table name - at the file of the excel select the desired table name for your logic path (very important)
+![image_about_selected_row](https://i.imgur.com/LkJRkP4.jpg)
+
+> ### send an email: V2 (action)
+	
 	divided into 3 parts
-recipients - the recipients can be fetched at the table on the excel file you have selected using dynamics ( a pop-up of data from the previews action.)
-subject and body - the contents can also be fetched at the table selected in the previews action. In the body, you can use normal input data at the body or if you have basic knowledge of HTML you can change the design of the email by using HTML.
-attachments - further actions are needed to use the attachments. So I made another article to avoid confusion whereas we are just sending a simple email from the recipients of the excel file.
+		
+		recipients - the recipients can be fetched at the table on the excel file you have selected using DYNAMICS ( a pop-up of data from the selected row excel action.)
 
-We have successfully done in updating the data of the logic flow. Now let's run it
+		subject and body - the contents can also be fetched at the table selected in the previews action. In the body, you can use normal input data at the body or if you have basic knowledge of HTML you can change the design of the email by using HTML.
+
+		attachments - further actions are needed to use the attachments. So I made another article to avoid confusion whereas we are just sending a simple email from the recipients of the excel file.
+![image_in_updating_send_email](https://i.imgur.com/Q97cyYJ.jpg)
+
+After we have updated the data of the flow, **click the save button** to save the logic flow in the MS Flow. 
+
+And we have successfully done in updating the data of the logic flow. Now let's run it
 
 --------------
 
@@ -76,7 +85,9 @@ We have successfully done in updating the data of the logic flow. Now let's run 
 
 Now we have created our flow and manage to update each content of the logic flow. Now we can run the flow. To run the flow, manage these steps to successfully run the flow.
 
-> check the flow checker beside the logic flow and with the dashboard of the flow if there are errors shown on it.
+> **check the flow checker beside the logic flow and with the dashboard of the flow if there are errors shown on it.**
+
+
 > after you have confirmed your flow is correct. Click Save the logic flow and after saving return to your excel file. At the excel file in the menu bar go to "insert" -> add-ins. After clicking add-in apps search for flow add add it to your excel file.
 > After you have add flow in your excel file. Go to Data -> Flow ( at the last end of the menu ). In there you will be directed to a portal of the list of flows within the excel file. After, click the name of the flow you have recently created.
 > At the table you will use for the flow, highlight the specific rows you want to use to send an email.
