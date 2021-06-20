@@ -2,25 +2,37 @@ MS flow and Excel
 In this guide, I will show you how to use office365 in sending bulk emails using Gmail stored in your excel file. In this tutorial, you must have basic knowledge in HTML ( optional ), purchase a subscription on MS office365, and some basic knowledge in developing Web Applications.
 
 
-BASIC CONFIGURATIONS
+## BASIC CONFIGURATIONS
 
-First, open your account at office365 in you're favorite browser. After you open your account, select the excel file you want to send email in bulk. At the file, the file must be in the table which is shown in the figure given ( very important ). If the file is not yet set click here for how to set a table in MS Excel.
 
-after you have set up basic configurations in MS Excel. At your account in office365 open your MS Flow application. The following options are the actions needed for your desired action.
->create flow
->update flow
->run flow
+First, open your account at office365 in you're favorite browser. After you open your account, select the excel file you want to send email in bulk.
+![image_starting](https://i.imgur.com/dAR55sL.png)
+
+At the file, the file must be in the table which is shown in the figure given ( very important ). If the file is not yet set click here for how to set a table in MS Excel.
+![image_excel_table](https://i.imgur.com/Co9WujS.png)
+
+after you have set up basic configurations in MS Excel. At your account in office365 open your MS Flow application.
+![image_flow_app](https://i.imgur.com/rbcowKz.jpg)
+The following options are the actions needed for your automation in gmail.
+>[create flow](#create-flow)
+
+>[update flow](#update-flow)
+
+>[run flow](#run-flow)
 
 Check other options you can do with your MS Flow and MS Excel.
 > Add image at your flow.
+
 > Add attachments at your flow.
 
+
 ----------------------------------------------
-Create flow
+## Create flow
 
 after you open your MS Flow in your browser. Follow these steps on how to create a flow with MS Excel.
 
 -> click create flow
+![image_flow_create]()
 -> click instant flow
 -> write your flow name; and search and scroll below the choices. And choose "MS Excel for business; FOR A SELECTED ROW" and click create
 -> the system will redirect you on its logic path which starts on "for a selected row" using excel.
@@ -29,7 +41,7 @@ after you open your MS Flow in your browser. Follow these steps on how to create
 
 You have now created your flow. Now let us update the data within the logic path to our desired action of the flow.
 
-Update Flow
+## Update Flow
 
 Congratiolations!! :party: :party:
 You have made your flow, but this flow is not yet complete. You need to update its logic flow on its contents.
@@ -49,7 +61,7 @@ We have successfully done in updating the data of the logic flow. Now let's run 
 
 --------------
 
-Run Flow
+## Run Flow
 
 Now we have created our flow and manage to update each content of the logic flow. Now we can run the flow. To run the flow, manage these steps to successfully run the flow.
 
